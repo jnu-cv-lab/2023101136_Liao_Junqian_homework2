@@ -17,7 +17,7 @@
 - gray_test.jpg：灰度图
 - main.cpp：源文件
 
-## 任务7
+## 实验二学习报告
 - 如果需要多个文件进行编译：
 - 把所有 .cpp 都写进 tasks.json 的 args 里，如：
 - "args": [
