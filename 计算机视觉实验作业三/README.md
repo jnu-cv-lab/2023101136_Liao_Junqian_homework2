@@ -12,7 +12,7 @@
 - 见计算机视觉实验报告
 ## 图像信息
 - Original：原灰度图
-- Downsampled_Direct：直接1/2缩小图
+- Downsampled_Direct：直接1/4缩小图
 - Downsampled_Gaussian：先做高斯平滑的缩小图
 - Restored_Direct_Bicubic/Bilinear/Nearest：双三次/双线性/最近邻内插恢复图
 - Restored_Gaussian_Bicubic/Bilinear/Nearest：双三次/双线性/最近邻内插恢复图（高斯平滑）
