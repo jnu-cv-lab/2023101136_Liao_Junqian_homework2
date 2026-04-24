@@ -1,4 +1,16 @@
 # 计算机视觉实验五
+## 图像信息
+- SIFT：两种算法对比表格
+- box_in_scene_keypoints：box_in_scene的特征点
+- box_keypoints：box的特征点
+- mission_6：任务六中每组nfeatures参数的记录表格
+- orb_all_matches：ORB初始匹配图
+- orb_top50_matches：ORB前50个匹配可视化结果
+- orb_ransac_matches：RANSAC后的匹配图（ORB）
+- target_localization：在box_in_scene中定位的结果图（ORB）
+- sift_ransac_matches：RANSAC后的匹配图（SIFT）
+- sift_target_localization：在box_in_scene中定位的结果图（SIFT）
+- task6_comparison：nfeatures与匹配数量，RANSAC内点比例的数量关系图
 ## 实验内容与要求
 ### 任务1：ORB关键点检测与描述子提取
 - 使用 OpenCV 的 ORB 算法检测两幅图像中的关键点和描述子。
@@ -59,15 +71,7 @@
 6. 与 ORB 的结果进行比较。
 ## 实验结果与分析
 - 见计算机视觉实验报告六
-## 图像信息
-- original：原始测试图
-- similarity：相似变换
-- affine：仿射变换
-- perspective：透视变换
-- comparison：比较图
-- A4paper：A4纸原图
-- corrected_A4：校正后的A4纸
-- comparison_A4：比较图（A4）
+
 
 
 
