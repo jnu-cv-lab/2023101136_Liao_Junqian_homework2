@@ -11,6 +11,8 @@
 - sift_ransac_matches：RANSAC后的匹配图（SIFT）
 - sift_target_localization：在box_in_scene中定位的结果图（SIFT）
 - task6_comparison：nfeatures与匹配数量，RANSAC内点比例的数量关系图
+## 实验结果与分析
+- 见计算机视觉实验报告六
 ## 实验内容与要求
 ### 任务1：ORB关键点检测与描述子提取
 - 使用 OpenCV 的 ORB 算法检测两幅图像中的关键点和描述子。
@@ -69,8 +71,7 @@
 4. 使用 Lowe ratio test 筛选匹配；
 5. 使用 RANSAC + Homography 完成目标定位；
 6. 与 ORB 的结果进行比较。
-## 实验结果与分析
-- 见计算机视觉实验报告六
+
 
 
 
